@@ -167,7 +167,7 @@ const InvoiceForm = () => {
       dispatch(addInvoice(formData));
       alert("Invoice added successfuly 🥳");
     }
-    navigate("/");
+    navigate("/Swipe-Assignment");
   };
 
   const handleCopyInvoice = () => {
@@ -188,7 +188,7 @@ const InvoiceForm = () => {
       <div className="d-flex align-items-center">
         <BiArrowBack size={18} />
         <div className="fw-bold mt-1 mx-2 cursor-pointer">
-          <Link to="/">
+          <Link to="/Swipe-assignment">
             <h5>Go Back</h5>
           </Link>
         </div>
